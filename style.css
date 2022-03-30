@@ -1,0 +1,43 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background-color: #cecece;
+}
+
+.navBar {
+  background: rgb(10, 136, 10);
+  background: radial-gradient(
+    circle,
+    rgba(10, 136, 10, 1) 20%,
+    rgba(23, 62, 7, 1) 70%
+  );
+}
+.marca {
+  font-family: "Sacramento", cursive;
+}
+#termino {
+  background: white !important;
+}
+
+.recetas {
+  margin-top: 50px;
+}
+
+.cardCustom {
+  margin-bottom: 20px;
+}
+
+#footer {
+  margin-top: 20px;
+  background: rgb(10, 136, 10);
+  background: radial-gradient(
+    circle,
+    rgba(10, 136, 10, 1) 20%,
+    rgba(23, 62, 7, 1) 70%
+  );
+}
+
+#contenedor {
+  min-height: 250px;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- importing fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navBar">
+      <!-- Container wrapper -->
+      <div class="container-fluid justify-content-between">
+        <!-- Navbar brand -->
+        <small class="text-white marca">Healthy Food</small>
+
+        <!-- Left links -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#footer">Contacto</a>
+          </li>
+        </ul>
+
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <header>
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('https://img.bekiacocina.com/articulos/portada/79000/79490-h1.jpg');
+          height: 400px;
+        "
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">
+                Bienvenido a <span class="marca">Healthy Food</span>
+              </h1>
+              <h4 class="mb-3">Empieza buscando tu comida favorita</h4>
+
+              <div class="form-outline">
+                <input
+                  type="search"
+                  id="termino"
+                  class="form-control"
+                  placeholder="Busca una receta"
+                  aria-label="Search"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background image -->
+    </header>
+
+    <!-- Recetas -->
+    <div class="container" id="contenedor">
+      <div id="recetas" class="row justify-content-center recetas"></div>
+    </div>
+
+    <!-- Contacto -->
+    <footer id="footer" class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <h4>Contacto</h4>
+
+        <br />
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Linkedin -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca"
+            href="https://www.linkedin.com/in/darionmarasciuolo-desarrollador-frontend/"
+            role="button"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/NickmDrummer"
+            role="button"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <!-- Google -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac0b0b"
+            href="mailto:nickmdrummer@gmail.com"
+            role="button"
+            target="_blank"
+            ><i class="fab fa-google"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © <span id="year"></span> Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >Made by Nickmdrummer</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
